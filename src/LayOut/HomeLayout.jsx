@@ -11,6 +11,7 @@ const HomeLayout = () => {
         <div>
            <header>
             <Header></Header>
+      
             <section className='w-11/12 my-3 mx-auto'>
                 <Latest></Latest>
             </section>

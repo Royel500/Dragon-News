@@ -3,7 +3,7 @@ import SocialLogin from './SocialLogin';
 import FindUs from './FindUs';
 import Qzone from './Qzone';
 
-const RightAside = () => {
+const de = () => {
     return (
         <div className='space-y-8'>
             <SocialLogin></SocialLogin>
@@ -13,4 +13,4 @@ const RightAside = () => {
     );
 };
 
-export default RightAside;
+export default de;

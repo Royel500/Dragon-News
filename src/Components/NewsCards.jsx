@@ -1,10 +1,12 @@
 import React from "react";
 import { FaEye, FaRegBookmark, FaStar } from "react-icons/fa";
 import { IoMdShare } from "react-icons/io";
+import { Link } from "react-router";
 
 const NewsCards = ({ news }) => {
   const {
     title,
+    id,
     rating,
     total_view,
     author,
@@ -48,9 +50,9 @@ const NewsCards = ({ news }) => {
         <p>
           {details.length > 200 ? `${details.slice(0, 200)}...` : details}
           <div className="mt-3">
-          <button className="text-primary font-medium hover:underline">
+          <Link to={`/news-details/${id}`} className="text-primary font-medium hover:underline">
             Read More
-          </button>
+          </Link>
         </div>
         </p>
         <div className="card-actions mt-4 justify-between items-center text-sm">

@@ -13,7 +13,7 @@ const FindUs = () => {
    Facebook
 </button>
 <button className="flex btn border-[#005fd8]"><span> <FaTwitter></FaTwitter> </span> Twitter</button>
-<button className="flex btn border-[#005fd8]"><span><FiInstagram></FiInstagram> </span> Instagram-</button>
+<button className="flex btn border-[#005fd8]"><span><FiInstagram></FiInstagram> </span> Instagram</button>
 
 
             </div>
