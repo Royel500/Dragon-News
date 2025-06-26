@@ -17,11 +17,11 @@ const router = createBrowserRouter([
         element: <HomeLayout></HomeLayout> ,
         children:[
             {
-                path:'' ,
+                index:true ,
                 element:<Home></Home>
             },
             {
-                path:'/category/:id' ,
+                path:'category/:id' ,
                 element: <Category></Category>,
                 loader: () => fetch('/news.json'),
             },
@@ -33,11 +33,11 @@ const router = createBrowserRouter([
       errorElement:<Error></Error>,
     children:[
         {
-            path:'/auth/login' ,
+            path:'auth/login' ,
             element: <LogIn></LogIn>
         },
         {
-            path:'/auth/register' ,
+            path:'auth/register' ,
             element: <Register></Register>
         }
     ]

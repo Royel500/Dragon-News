@@ -19,7 +19,7 @@ const Category = () => {
                 setNewss(filterNews)
         }
         else{
-            const filterNews = data.filter((news) => news.category_id == id );
+            const filterNews = data?.filter((news) => news.category_id == id );
             setNewss(filterNews);
         }
 

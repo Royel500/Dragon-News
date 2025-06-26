@@ -2,12 +2,11 @@ import React, { use } from 'react';
 import { NavLink } from 'react-router';
 
 
-const categoriess = fetch('/public/categories.json')
-.then(res =>res.json()) ;
 
-const Categories = () => {
 
-const categorie = use(categoriess)
+const Categories = ({categoriess}) => {
+
+const categorie = use(categoriess);
 
     return (
         <div>

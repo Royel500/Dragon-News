@@ -12,7 +12,7 @@ const CardDetails = () => {
     // .log(data,id,news);
 
     useEffect(() =>{
-        const newsDetails = data.find((single) => single.id == id)
+        const newsDetails = data?.find((single) => single.id == id)
     setNews(newsDetails)
     },[data,id])
     return (
