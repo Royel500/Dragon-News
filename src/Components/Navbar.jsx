@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="flex gap-5">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>
-                <NavLink to="/career">Career</NavLink>
+                <NavLink to="/feature">Feature</NavLink>
             </div>
             <div className="flex gap-2 items-center  lg:mr-10">
                 <img

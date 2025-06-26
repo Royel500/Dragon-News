@@ -9,6 +9,8 @@ import Authebtication from "../LayOut/HomeLayout/Authebtication";
 
 import CardDetails from "../Components/CardDetails";
 import PrivateRoute from "../Provider/PrivateRoute";
+import About from './../Components/About';
+import Feature from './../Components/Feature';
 
 
 const router = createBrowserRouter([
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
             {
                 index:true ,
                 element:<Home></Home>
+            },
+            {
+                path:'/about',
+                element:<About></About>
+            },
+            {
+                path:'/feature',
+                element:<Feature></Feature>
             },
             {
                 path:'category/:id' ,
