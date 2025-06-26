@@ -1,12 +1,46 @@
-# React + Vite
+# 🐉 Dragon News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dragon News** is a modern, responsive single-page news portal built with **React**, styled using **Tailwind CSS**, and hosted on **Firebase**. It allows users to explore categorized news, read detailed articles, and interact with a clean and dynamic UI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Live Site](https://dragon-news-cea9e.web.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ✅ Responsive layout with Tailwind CSS
+- 🔐 Firebase Authentication (Email/Password, Google, GitHub)
+- 📰 Category-wise news listing
+- 📄 Individual news details page
+- 🌙 Light/Dark mode support
+- 🔁 Private routes and route protection
+- 📦 Lazy loading and error handling
+- 🧭 React Router DOM (v6)
+- 🛠️ Firebase Hosting
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech           | Usage                         |
+|----------------|-------------------------------|
+| React          | Frontend SPA                  |
+| React Router   | Client-side routing           |
+| Tailwind CSS   | Styling                       |
+| Firebase       | Hosting & Authentication      |
+| Vite           | Build tool (fast dev server)  |
+
+---
+
+## 📂 Folder Structure
+
+src/
+│
+├── Components/ # Reusable UI and feature components
+├── Context/ # Auth provider and global context
+├── Layout/ # Main layout and dashboard layout
+├── DashboardLayout/ # Dashboard routes/components
+├── App.jsx # Root app with router setup
+└── main.jsx # Entry point
